@@ -1,0 +1,22 @@
+.water-usage-analytics {
+    padding: 20px;
+    background: linear-gradient(60deg, #F6F8FA, #dccefd);
+    border-radius: 8px;
+  }
+  
+  .water-usage-analytics h2 {
+    margin-bottom: 20px;
+  }
+  
+  .charts {
+    margin-bottom: 30px;
+  }
+  
+  .charts h3 {
+    margin-bottom: 10px;
+  }
+  
+  .charts .recharts-wrapper {
+    margin: auto;
+  }
+  

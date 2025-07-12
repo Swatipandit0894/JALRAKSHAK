@@ -1,0 +1,22 @@
+/* src/styles/SensorManagement.css */
+
+.sensor-management {
+    padding: 20px;
+   background: linear-gradient(60deg, #F6F8FA, #dccefd);;
+  }
+  
+  .sensor-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sensor-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sensor-item input {
+    margin-right: 10px;
+  }
+  

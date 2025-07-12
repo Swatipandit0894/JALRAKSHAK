@@ -1,0 +1,50 @@
+/* src/components/HowItWorks.css */
+.how-it-works {
+    padding: 4rem 2rem;
+    background: linear-gradient(60deg, #F6F8FA, #dccefd);
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Dark text color */
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .step {
+    background: #f7f9fc; /* Light background for steps */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem;
+    width: 300px; /* Fixed width for uniformity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .step img {
+    width: 60px; /* Adjust based on your icon size */
+    margin-bottom: 1rem;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #007bff; /* Highlight color for step titles */
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #666; /* Light gray for descriptions */
+  }
+  
+  .step:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  

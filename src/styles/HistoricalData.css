@@ -1,0 +1,73 @@
+/* src/styles/HistoricalData.css */
+
+.historical-data {
+  padding: 20px;
+  background: linear-gradient(60deg, #F6F8FA, #dccefd);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historical-data h2 {
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filter input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.charts {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F8F9FA;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charts h3 {
+  text-align: center;
+  color: #4A4E69;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.line-chart, .bar-chart {
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+  background-color: #6A5ACD;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7B68EE;
+}

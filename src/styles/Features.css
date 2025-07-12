@@ -1,0 +1,56 @@
+/* src/styles/Features.css */
+.features {
+  padding: 4rem 2rem;
+  background: linear-gradient(60deg, #F6F8FA, #dccefd);
+  text-align: center;
+  color: #333; /* Default text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1a73e8; /* Highlighted section title */
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-item {
+  background: #ffffff; /* White background for each feature */
+  border-radius: 15px; /* Slightly more rounded corners */
+  padding: 2rem;
+  width: 300px; /* Fixed width for uniformity */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item img {
+  width: 70px; /* Slightly larger icon size */
+  margin-bottom: 1.5rem; /* Increased space between icon and title */
+}
+
+.feature-item h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #007bff; /* Consistent highlight color */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #555; /* Darker gray for better readability */
+}
+
+.feature-item:hover {
+  transform: translateY(-10px); /* More pronounced lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.feature-item:hover h3 {
+  color: #0056b3; /* Darker blue on hover for the title */
+}

@@ -1,0 +1,57 @@
+/* src/components/Hero.css */
+.hero {
+    position: relative;
+    height: 100vh; /* Adjust height as needed */
+    /*background-image: url('src\assets\image.jpg'); /* Adjust path to your image */
+    background-image: url('../assets/image copy.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color */
+    text-align: center;
+    
+  }
+  
+  .hero-content {
+    z-index: 1; /* Ensure text is above the background */
+  }
+  
+  /* src/components/Hero.css */
+.hero h1 {
+    font-size: 2rem; /* Font size */
+    margin-bottom: 1rem;
+    font-weight: 900; /* Make text bold */
+    position: relative;
+    top: -150px; /* Adjust this value to move the text up */
+    color: #279b3c; /* Change text color (e.g., white) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Roboto Slab',
+  }
+  
+  
+  
+  
+/* src/components/Hero.css */
+.hero button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4caf50; /* Green color for a fresh look */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* More rounded corners for a modern feel */
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif; /* Consistent font style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth with shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    position: relative;
+    right: 10px; /* Slightly shift button to the right */
+  }
+  
+  .hero button:hover {
+    background-color: #388e3c; /* Darker green for hover effect */
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  

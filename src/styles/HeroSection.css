@@ -1,0 +1,44 @@
+/* Hero section styles */
+.hero {
+    background-image: url('../assets/hero-background.jpg'); /* Relative path from src/styles to src/assets */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White text color for contrast */
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content {
+    z-index: 2; /* Ensure text is above background image */
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  

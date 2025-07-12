@@ -1,0 +1,136 @@
+/* Sidebar Container */
+.sidebar {
+  background: #1e1e2f; /* Dark theme for a premium look */
+  color: #ffffff; /* White text for readability */
+  padding: 20px;
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.4s ease-in-out;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.5); /* Smooth depth effect */
+}
+
+/* Collapsed Sidebar */
+.sidebar.collapsed {
+  width: 80px;
+  transition: width 0.4s ease-in-out;
+}
+
+.sidebar.collapsed .text {
+  display: none; /* Hide text when collapsed */
+}
+
+/* Collapse Button */
+.collapse-btn {
+  background: #ff4757; /* Vibrant red for visibility */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 71, 87, 0.5);
+}
+
+.collapse-btn:hover {
+  background-color: #e84118;
+  transform: scale(1.1);
+}
+
+/* Sidebar Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-menu li {
+  padding: 15px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-menu li:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateX(8px);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Icons */
+.icon {
+  font-size: 35px;
+  margin-right: 15px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover Effect on Icons */
+.sidebar-menu li:hover .icon {
+  transform: rotate(15deg);
+}
+
+/* Icon Colors */
+.icon-color-monitoring {
+  color: #38b6ff; /* Sky Blue */
+}
+
+.icon-color-data {
+  color: #ffbe0b; /* Yellow */
+}
+
+.icon-color-alerts {
+  color: #ff4757; /* Red */
+}
+
+.icon-color-settings {
+  color: #8338ec; /* Purple */
+}
+
+/* Sidebar Text */
+.text {
+  font-size: 17px;
+  font-weight: bold;
+  color: #f1f1f1;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebar-menu li:hover .text {
+  color: #ffdd57; /* Golden Yellow */
+}
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar.collapsed {
+    width: 60px;
+  }
+
+  .sidebar-menu li {
+    padding: 12px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

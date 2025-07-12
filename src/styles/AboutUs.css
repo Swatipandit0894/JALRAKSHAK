@@ -1,0 +1,42 @@
+/* src/components/AboutUs.css */
+.about-us {
+    padding: 4rem 2rem;
+    background: linear-gradient(60deg, #F6F8FA, #dccefd);
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Dark text color */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #007bff; /* Highlight color for headings */
+  }
+  
+  .about-text p, .about-text ul {
+    font-size: 1rem;
+    color: #666; /* Light gray for text */
+    line-height: 1.6;
+  }
+  
+  .about-text ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
